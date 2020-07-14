@@ -5,8 +5,9 @@ contract MyContract
 {
     address owner;
     uint time = block.timestamp;
-    string y;
-    address constant myAddress = 0xcCF29f1482a193f8490Ad2CA7F60e89016BDf76f;
+    address constant myAddress = 0x583031D1113aD414F02576BD6afaBfb302140225;
+    uint amount = 50 ether;
+    address payable kinAddress = 0xdD870fA1b7C4700F2BD7f44238821C26f7392148;
     
     modifier only_owner()
     {
@@ -57,10 +58,10 @@ contract MyContract
         }
     }
     
-    function Tranfer_Funds(address payable receiver) 
-    payable external time_validation
+    function Tranfer_Funds() 
+    payable public time_validation
     {
-        uint256 amount = msg.value;
-        receiver.transfer(amount);  
+        require(msg.value <= amount);
+        kinAddress.transfer(msg.value);
     }
 }
