@@ -24,5 +24,5 @@
     A smart contract on the Ethereum blockchain to Create events and buy or transfer its tickets.
     
     Used create an event or buy tickets for registered events.
-    The buyer can also transfer the ticket to another address easily.
-    
+    The buyer can view the events running currently and the details about a specific event.
+    Can also transfer the ticket to another address easily.
