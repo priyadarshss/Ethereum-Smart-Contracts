@@ -21,5 +21,8 @@
     The backer will have complete knowledge of what is going on behind the scenes without worrying about scammers and fraudsters.
     
    ## 3. Event ticket system:-    
+    A smart contract on the Ethereum blockchain to Create events and buy or transfer its tickets.
     
+    Used create an event or buy tickets for registered events.
+    The buyer can also transfer the ticket to another address easily.
     
