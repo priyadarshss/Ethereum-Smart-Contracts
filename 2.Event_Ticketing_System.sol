@@ -44,7 +44,7 @@ contract EventContract
     {
     require(date > now, 'Can only organize event at a future date');
     require(ticketCount > 0, 'Can only organize event with at least 1 ticket.');
-    require(msg.value==1 wei, 'Can create event only if 1 Ether is sent.');
+    require(msg.value==1 wei, 'Can create event only if 1 wei is sent.');
     array.push(name);
     Event[nextId] = Events(
       msg.sender, 
