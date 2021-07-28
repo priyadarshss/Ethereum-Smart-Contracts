@@ -20,7 +20,7 @@
     The project manager will have to provide the details of where and the money is being sent and for what.
     The backer will have complete knowledge of what is going on behind the scenes without worrying about scammers and fraudsters.
     
-   ## 3. Event ticket system:-    
+   ## 3. Event ticket management:-    
     A smart contract on the Ethereum blockchain to Create events and buy or transfer its tickets.
     
     Used create an event or buy tickets for registered events.
